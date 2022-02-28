@@ -1,5 +1,15 @@
 .header__logo {
   width: 176px;
   height: 52px;
-  border: 2px solid red;
+}
+
+.header__logo:hover {
+opacity: .75;
+}
+
+@media screen and (max-width: 425px) {
+  .header__logo {
+    width: 142px;
+    height: 42px;
+  }
 }

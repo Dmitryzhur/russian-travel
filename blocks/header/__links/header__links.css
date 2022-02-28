@@ -1,5 +1,6 @@
 .header__links {
   display: flex;
-  flex-flow: row;
-  border: 2px solid rgb(248, 174, 174);
+  margin: 0;
+  align-items: flex-end;
+  gap: 18px;
 }
