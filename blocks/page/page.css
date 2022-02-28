@@ -1,3 +1,15 @@
 .page {
   background-color: #2A2C2F;
+  min-width: 320px;
+  margin: 0 auto;
+  font-family: 'Inter', 'arial', sans-serif;
+  color: #FFF;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a:hover {
+  opacity: .65;
+  transition: .3s;
 }
