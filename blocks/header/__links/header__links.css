@@ -3,4 +3,5 @@
   margin: 0;
   align-items: flex-end;
   gap: 18px;
+  cursor: default;
 }
