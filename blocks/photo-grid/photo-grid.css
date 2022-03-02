@@ -7,3 +7,27 @@
   gap: 16px;
   padding: 92px 48px;
 }
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(6, auto);
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .photo-grid {
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(12, auto);
+    gap: 12px;
+  }
+}

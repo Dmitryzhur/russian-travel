@@ -1,0 +1,16 @@
+.cover__link {
+  display: flex;
+  color: white;
+  text-decoration: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background:rgba(42, 44, 47, .3);
+  transition: .7s linear;
+}
+
+.cover__link:hover {
+  background:rgba(42, 44, 47, .8);
+  transition: .7s linear;
+}
