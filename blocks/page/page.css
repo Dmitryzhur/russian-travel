@@ -9,8 +9,3 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-a:hover {
-  opacity: .65;
-  transition: .3s;
-}
