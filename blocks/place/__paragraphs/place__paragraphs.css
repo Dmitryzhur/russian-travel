@@ -3,3 +3,9 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 530px) {
+  .place__paragraphs {
+    grid-row: 4;
+  }
+}

@@ -18,7 +18,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 530px) {
   .place {
     grid-auto-flow: dense;
     grid-template-columns: auto;

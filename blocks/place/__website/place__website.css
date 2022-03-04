@@ -6,6 +6,13 @@
   justify-content: flex-end;
 }
 
+@media screen and (max-width: 530px) {
+  .place__website {
+    grid-row: 2;
+  }
+}
+
+
 @media screen and (max-width: 425px) {
   .place__website {
     padding: 0 16px;
