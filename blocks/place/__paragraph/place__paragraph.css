@@ -3,12 +3,12 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 1.63;
-  margin: 0;
+  margin: 0 0 26px 0;
   padding: 0;
 }
 
-.place__paragraph:first-child {
-  margin: 0 0 26px 0;
+.place__paragraph:last-child {
+  margin: 0;
 }
 
 @media screen and (max-width: 768px) {
